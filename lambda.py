@@ -1,9 +1,9 @@
 def handler(event, context):
-    enableConnection = event.get("queryStringParameters", {})
-    if enableConnection is None:
-        enableConnection = {}
-    connection = enableConnection.get("connection", "true")
-    keepAlive = enableConnection.get("keep-alive", "true")
+    query_params = event.get("queryStringParameters", {})
+    if query_params is None:
+        query_params = {}
+    connection = query_params.get("connection", "true")
+    keepAlive = query_params.get("keep-alive", "true")
     
     headers = {}
     if connection == "true": 
