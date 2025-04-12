@@ -1,3 +1,5 @@
+# 3-test-local-adapter.ps1
+
 # PowerShell script to test local Lambda Web Adapter build and header output
 # Tests if the adapter is correctly sanitizing HTTP headers
 $ErrorActionPreference = "Stop"

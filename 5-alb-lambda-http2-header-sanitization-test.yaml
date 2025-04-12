@@ -1,4 +1,6 @@
-# AWSTemplateFormatVersion: '2010-09-09'
+# 5-alb-lambda-http2-header-sanitization-test.yaml
+
+ AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: |
   Lambda HTTP/2 Header Sanitization Test Environment

@@ -1,3 +1,5 @@
+# 4-test-adapter-with-flask.ps1
+
 # PowerShell script to test adapter stripping headers with Flask
 # Purpose: Test if sanitization works with a real upstream server
 $ErrorActionPreference = "Stop"

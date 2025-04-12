@@ -1,3 +1,5 @@
+# 2-build-layer-zip.ps1
+
 # Enhanced PowerShell script to build Lambda Layer
 # Purpose: Builds and packages the Lambda Web Adapter with header sanitization
 $ErrorActionPreference = "Stop"

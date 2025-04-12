@@ -1,3 +1,5 @@
+# 1-local-adapter-setup.ps1
+
 # Enhanced script for setting up the Lambda Web Adapter with header sanitization
 # Purpose: Prepares the local development environment with necessary files and code
 $ErrorActionPreference = "Stop"

@@ -1,3 +1,5 @@
+# 6-alb-test-http2-sanitization.ps1
+
 # PowerShell script to test HTTP/2 header sanitization with AWS ALB
 param (
     [Parameter(Mandatory=$true)]
